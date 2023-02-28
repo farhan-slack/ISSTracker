@@ -1,0 +1,16 @@
+{
+  "name": "iss-tracker",
+  "version": "1.0.0",
+  "description": "This API provides real-time information about the location of the International Space Station (ISS) and the city and country where the ISS is currently nearby.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Farhan Khan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "request": "^2.88.2"
+  }
+}
